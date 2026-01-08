@@ -147,37 +147,35 @@ These labs directly prepare you for:
 *   “Which features would you drop and why?”
     
 
-▶️ How to Run
--------------
+## ▶️ How to Run
 
 ### Option 1: Google Colab
+1. Open any notebook
+2. Click **Open in Colab**
+3. Run cells top-to-bottom
 
-1.  Open any notebook
-    
-2.  Click **Open in Colab**
-    
-3.  Run cells top-to-bottom
-    
 ### Option 2: Local
-```bash
-pip install numpy pandas matplotlib seaborn
-jupyter notebook```
 
-🧪 Suggested Extensions (Optional)
-----------------------------------
 
-*   Add feature importance reasoning (no modeling)
-    
-*   Compare distributions before/after cleaning
-    
-*   Detect Simpson’s paradox
-    
-*   Write EDA conclusions as a 1-page report
-    
+## 🧪 Suggested Extensions (Optional)
 
-🎯 Final Takeaway
------------------
+- **Add feature importance reasoning (no modeling)**  
+  Use statistical tests and domain knowledge to assess feature relevance without training models.
+
+- **Compare distributions before/after cleaning**  
+  Visualize how data cleaning transforms your dataset and validates your preprocessing steps.
+
+- **Detect Simpson's paradox**  
+  Analyze relationships across different subgroups to uncover misleading aggregated patterns.
+
+- **Write EDA conclusions as a 1-page report**  
+  Summarize key insights, data issues, and actionable recommendations concisely for stakeholders.
+
+## 🎯 Final Takeaway
 
 > **Great ML starts with great EDA.**
 
-If you can explain your EDA clearly,you’re already thinking like a **FAANG ML engineer**.
+If you can explain your EDA clearly, you're already thinking like a **FAANG ML engineer**.
+    
+
+
